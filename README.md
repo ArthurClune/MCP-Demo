@@ -31,3 +31,10 @@ This will add condig to `~/Library/Application Support/Claude/claude_desktop_con
 ```
 
 Once installed, test in Claude desktop by e.g. "Show me the files in /Users"
+
+## Tests
+
+The tests are  pretty made up
+```
+uv run python -m unittest discover -s tests
+```
