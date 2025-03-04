@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # Copyright 2025 Arthur Clune arthur@clune.org
 #
 # Licensed under the MIT License
