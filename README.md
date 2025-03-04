@@ -2,6 +2,8 @@
 
 The simplest and dumbest possible MCP server, written to understand this stuff
 
+This repo only exists to support the blog post https://clune.org/posts/explaining-model-context-protocol/
+
 ## Features
 
 - Provides a single function `ls` that runs the shell command `ls <path>` and returns the result as a string
