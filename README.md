@@ -40,3 +40,13 @@ The tests are  pretty made up
 ```
 uv run python -m unittest discover -s tests
 ```
+
+## Type Checking
+
+This project uses pyrefly for type checking. To run type checks:
+
+```
+uv run pyrefly check
+```
+
+The codebase follows PEP 8 typing standards and should show 0 errors when properly typed.
