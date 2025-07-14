@@ -17,7 +17,7 @@ from mcp_server import mcp, ls
 
 class TestMCPServer(unittest.TestCase):
     @patch("mcp_server.subprocess.run")
-    def test_ls_function(self, mock_run):
+    def test_ls_function(self, mock_run) -> None:
         """Test that the ls function calls subprocess.run with the correct arguments and returns the output."""
         # Setup the mock
         mock_process = MagicMock()
@@ -39,7 +39,7 @@ class TestMCPServer(unittest.TestCase):
         # Verify the result is the expected string
         self.assertEqual(result, "file1\nfile2\nfile3")
 
-    def test_mcp_function_registration(self):
+    def test_mcp_function_registration(self) -> None:
         """Test that the ls function is registered with the MCP server."""
         # We can only verify the function exists by checking it directly
         # ls is already imported at the top of the file
